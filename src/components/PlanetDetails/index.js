@@ -8,18 +8,18 @@ import "./index.css";
 
 const PlanetDetails = () => {
   const location = useLocation();
-  const backUrl = location.state.page;
+  const backUrl = location.state ? location.state.page : '/';
   const [planet, setPlanet] = useState({});
 
   useEffect(() => {
-    if (!location.state.planet) {
+    if (location.state && location.state.planet) {
+      setPlanet(location.state.planet);
+    } else {
       fetch("https://swapi.dev/api" + location.pathname)
         .then((response) => response.json())
         .then((data) => setPlanet(data));
-    } else {
-      setPlanet(location.state.planet);
     }
-  });
+  }, [location]);
 
   return (
     <Container className="planetDetails">
