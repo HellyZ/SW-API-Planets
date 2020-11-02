@@ -6,4 +6,26 @@
     width: auto;
     height: auto;
   }
+
+  .planetsListContainer {
+    margin-top: 55px;
+  }
+  
+  .planetsListFooter {
+    margin: 55px;
+  }
+  
+  .planetCard {
+    margin-right: 20px !important;
+    margin-top: 25px;
+  }
+  
+  .planetCard > img {
+    max-width: 250px;
+  }
+  
+  .navBtn {
+    color: #000000 !important;
+  }
+  
 }
