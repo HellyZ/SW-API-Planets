@@ -19,11 +19,11 @@ export default function App() {
           <Redirect
             to={{
               pathname: "/planets",
-              search: "?page=1"
+              search: "?page=1",
             }}
           />
         </Route>
       </Switch>
     </div>
   );
-};
+}
