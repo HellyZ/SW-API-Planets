@@ -3,12 +3,13 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import PlanetDetails from "./components/PlanetDetails";
 import PlanetsList from "./components/PlanetsList";
 
-import "./styles.css";
+import { style } from "./index.scss";
+
 import "semantic-ui-css/semantic.min.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <>
       <Switch>
         <Route exact path="/planets" children={<PlanetsList />} />
         <Route
@@ -24,6 +25,6 @@ export default function App() {
           />
         </Route>
       </Switch>
-    </div>
+    </>
   );
 }
