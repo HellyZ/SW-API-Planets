@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e976d049c1f792ca6ca05d294ed2c407",
+    "revision": "e3e8a3426fff029528b5f719530198d1",
     "url": "/SW-API-Planets/index.html"
   },
   {
-    "revision": "d936b511f922f9a7a243",
+    "revision": "40afd4a202a79b39804c",
     "url": "/SW-API-Planets/static/css/2.13d9195a.chunk.css"
   },
   {
-    "revision": "ce0ebed192d43f1866cc",
-    "url": "/SW-API-Planets/static/css/main.3ce48672.chunk.css"
+    "revision": "37edd3f32bc7d1bbaebd",
+    "url": "/SW-API-Planets/static/css/main.8fe54d17.chunk.css"
   },
   {
-    "revision": "d936b511f922f9a7a243",
-    "url": "/SW-API-Planets/static/js/2.44c8cc0f.chunk.js"
+    "revision": "40afd4a202a79b39804c",
+    "url": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js"
   },
   {
     "revision": "66d053dd8caf1cce3291b2f05253a9c8",
-    "url": "/SW-API-Planets/static/js/2.44c8cc0f.chunk.js.LICENSE.txt"
+    "url": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce0ebed192d43f1866cc",
-    "url": "/SW-API-Planets/static/js/main.13390d6d.chunk.js"
+    "revision": "37edd3f32bc7d1bbaebd",
+    "url": "/SW-API-Planets/static/js/main.f93cba48.chunk.js"
   },
   {
     "revision": "abad0931eb0f556b4039",
