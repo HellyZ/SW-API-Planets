@@ -3,6 +3,8 @@ import { Resident } from './Resident'
 
 export const ResidentsList = (props) => {
     const {residents} = props;
-    return <><Resident></Resident></>
-
+    return (<>
+        {residents && residents.map((item, index)=><Resident key={index} residentUrl={item}/>)}
+        </>
+    );
 };
