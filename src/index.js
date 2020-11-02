@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { HashRouter as Router } from "react-router-dom";
 import App from "./App";
 
-import * as styles from "./index.scss";
+import "./index.css";
 
 const rootElement = document.getElementById("root");
 

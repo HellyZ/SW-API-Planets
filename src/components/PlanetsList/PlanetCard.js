@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import * as style from "./index.scss";
+import "./index.css";
 
 const PlanetCard = (props) => {
   const { planet, page } = props;
@@ -18,7 +18,7 @@ const PlanetCard = (props) => {
         pathname: `/planets/${planetId}`,
         state: { planet: planet, page: page },
       }}
-      className={style.planetCard}
+      className="planetCard"
     >
       <Card>
         <Card.Content>
