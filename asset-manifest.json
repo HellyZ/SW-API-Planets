@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SW-API-Planets/static/css/main.030f695b.chunk.css",
-    "main.js": "/SW-API-Planets/static/js/main.f93cba48.chunk.js",
-    "main.js.map": "/SW-API-Planets/static/js/main.f93cba48.chunk.js.map",
+    "main.js": "/SW-API-Planets/static/js/main.f1e7e54f.chunk.js",
+    "main.js.map": "/SW-API-Planets/static/js/main.f1e7e54f.chunk.js.map",
     "runtime-main.js": "/SW-API-Planets/static/js/runtime-main.0a248f38.js",
     "runtime-main.js.map": "/SW-API-Planets/static/js/runtime-main.0a248f38.js.map",
     "static/css/2.13d9195a.chunk.css": "/SW-API-Planets/static/css/2.13d9195a.chunk.css",
     "static/js/2.bd42f4fe.chunk.js": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js",
     "static/js/2.bd42f4fe.chunk.js.map": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js.map",
     "index.html": "/SW-API-Planets/index.html",
-    "precache-manifest.3522b0f21fae51f803c5361334c9df25.js": "/SW-API-Planets/precache-manifest.3522b0f21fae51f803c5361334c9df25.js",
+    "precache-manifest.39271dc27e55e128e9a1a2b32b35ed01.js": "/SW-API-Planets/precache-manifest.39271dc27e55e128e9a1a2b32b35ed01.js",
     "service-worker.js": "/SW-API-Planets/service-worker.js",
     "static/css/2.13d9195a.chunk.css.map": "/SW-API-Planets/static/css/2.13d9195a.chunk.css.map",
     "static/css/main.030f695b.chunk.css.map": "/SW-API-Planets/static/css/main.030f695b.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.13d9195a.chunk.css",
     "static/js/2.bd42f4fe.chunk.js",
     "static/css/main.030f695b.chunk.css",
-    "static/js/main.f93cba48.chunk.js"
+    "static/js/main.f1e7e54f.chunk.js"
   ]
 }

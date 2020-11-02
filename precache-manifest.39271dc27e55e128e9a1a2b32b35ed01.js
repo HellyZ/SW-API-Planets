@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1deaad8df073a832e32365f10519082",
+    "revision": "5bb9f870ce2a387d909d23bf99898e0c",
     "url": "/SW-API-Planets/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SW-API-Planets/static/css/2.13d9195a.chunk.css"
   },
   {
-    "revision": "cab6a12589c865bb674d",
+    "revision": "bce7bf1eadedfbebc163",
     "url": "/SW-API-Planets/static/css/main.030f695b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cab6a12589c865bb674d",
-    "url": "/SW-API-Planets/static/js/main.f93cba48.chunk.js"
+    "revision": "bce7bf1eadedfbebc163",
+    "url": "/SW-API-Planets/static/js/main.f1e7e54f.chunk.js"
   },
   {
     "revision": "abad0931eb0f556b4039",
