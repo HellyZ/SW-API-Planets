@@ -10,4 +10,4 @@ script:
 deploy:
   - npm run deploy
 on:
-  branch: master
+  branch: main
