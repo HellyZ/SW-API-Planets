@@ -2,15 +2,15 @@ import React from 'react';
 import { Button, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import "./styles.css";
+import { style } from "./index.scss";
 
 const NavBtn = (props) => {
-    const {pathname, currentPage, listMeta, directin} = props
+    const {pathname, currentPage, listMeta, direction} = props
     let iconName;
     let query = '?page='
     let isPrime;
     
-    switch (directin){
+    switch (direction){
         case "prev": 
             iconName='long arrow alternate left';
             query+=Number(currentPage) - 1;
@@ -31,7 +31,7 @@ const NavBtn = (props) => {
         
     };
     return (
-        <Button icon primary={isPrime} disabled={!isPrime} className="navBtn">
+        <Button icon primary={isPrime} disabled={!isPrime} className={style.navBtn}>
             <Link to={{ pathname: pathname, search: query }} >
                 <Icon name={iconName} color="black" size="big"/>
             </Link>
@@ -44,14 +44,14 @@ const PlanetsListNav = (props) => {
     const {listMeta, currentPage} = props
 
     return (
-        <div className="paginationNav">
-            <NavBtn directin="prev" {...props}/>
-            <Button className="navBtn">
+        <div className={style.paginationNav}>
+            <NavBtn direction="prev" {...props}/>
+            <Button className={style.navBtn}>
                 <Link to="/" >
                     {currentPage * 10}/{listMeta.count || 0}
                 </Link>
             </Button>
-            <NavBtn directin="next" {...props}/>
+            <NavBtn direction="next" {...props}/>
         </div>
     );
 };
