@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SW-API-Planets/static/css/main.8fe54d17.chunk.css",
+    "main.css": "/SW-API-Planets/static/css/main.030f695b.chunk.css",
     "main.js": "/SW-API-Planets/static/js/main.f93cba48.chunk.js",
     "main.js.map": "/SW-API-Planets/static/js/main.f93cba48.chunk.js.map",
     "runtime-main.js": "/SW-API-Planets/static/js/runtime-main.0a248f38.js",
@@ -9,10 +9,10 @@
     "static/js/2.bd42f4fe.chunk.js": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js",
     "static/js/2.bd42f4fe.chunk.js.map": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js.map",
     "index.html": "/SW-API-Planets/index.html",
-    "precache-manifest.36e9ed37e9f042e5103e9dddb8a620e2.js": "/SW-API-Planets/precache-manifest.36e9ed37e9f042e5103e9dddb8a620e2.js",
+    "precache-manifest.3522b0f21fae51f803c5361334c9df25.js": "/SW-API-Planets/precache-manifest.3522b0f21fae51f803c5361334c9df25.js",
     "service-worker.js": "/SW-API-Planets/service-worker.js",
     "static/css/2.13d9195a.chunk.css.map": "/SW-API-Planets/static/css/2.13d9195a.chunk.css.map",
-    "static/css/main.8fe54d17.chunk.css.map": "/SW-API-Planets/static/css/main.8fe54d17.chunk.css.map",
+    "static/css/main.030f695b.chunk.css.map": "/SW-API-Planets/static/css/main.030f695b.chunk.css.map",
     "static/js/2.bd42f4fe.chunk.js.LICENSE.txt": "/SW-API-Planets/static/js/2.bd42f4fe.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/SW-API-Planets/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.0a248f38.js",
     "static/css/2.13d9195a.chunk.css",
     "static/js/2.bd42f4fe.chunk.js",
-    "static/css/main.8fe54d17.chunk.css",
+    "static/css/main.030f695b.chunk.css",
     "static/js/main.f93cba48.chunk.js"
   ]
 }
