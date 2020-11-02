@@ -47,3 +47,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - Run `nvm use 14`
 - Run `npm install -g npm@latest`
 - Run `npm i`
+- Run `npm run start`

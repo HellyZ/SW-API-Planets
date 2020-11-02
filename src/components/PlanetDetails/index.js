@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { Table, Container, Menu } from "semantic-ui-react";
 import { ResidentsList } from "./ResidentsList";
 
-import { style } from "./index.scss";
+import * as styles from "./index.scss";
 
 const PlanetDetails = () => {
   const location = useLocation();
@@ -22,7 +22,7 @@ const PlanetDetails = () => {
   });
 
   return (
-    <Container className={style.planetDetails}>
+    <Container className={styles.planetDetails}>
       <Menu compact icon="labeled">
         <Menu.Item name="Back">
           <Link to={backUrl}>Back</Link>

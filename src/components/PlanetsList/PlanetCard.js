@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import { style } from "./index.scss";
+import * as style from "./index.scss";
 
 const PlanetCard = (props) => {
   const { planet, page } = props;

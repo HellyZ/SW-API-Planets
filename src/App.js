@@ -3,8 +3,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import PlanetDetails from "./components/PlanetDetails";
 import PlanetsList from "./components/PlanetsList";
 
-import { style } from "./index.scss";
-
 import "semantic-ui-css/semantic.min.css";
 
 export default function App() {

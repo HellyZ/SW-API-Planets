@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import { style } from "./index.scss";
+import * as styles from "./index.scss";
 
 const NavBtn = (props) => {
   const { pathname, currentPage, listMeta, direction } = props;
@@ -30,7 +30,7 @@ const NavBtn = (props) => {
       break;
   }
   return (
-    <Button icon primary={isPrime} disabled={!isPrime} className={style.navBtn}>
+    <Button icon primary={isPrime} disabled={!isPrime} className={styles.navBtn}>
       <Link to={{ pathname: pathname, search: query }}>
         <Icon name={iconName} color="black" size="big" />
       </Link>
@@ -42,9 +42,9 @@ const PlanetsListNav = (props) => {
   const { listMeta, currentPage } = props;
 
   return (
-    <div className={style.paginationNav}>
+    <div className={styles.paginationNav}>
       <NavBtn direction="prev" {...props} />
-      <Button className={style.navBtn}>
+      <Button className={styles.navBtn}>
         <Link to="/">
           {currentPage * 10}/{listMeta.count || 0}
         </Link>

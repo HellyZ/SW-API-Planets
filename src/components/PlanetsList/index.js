@@ -4,7 +4,7 @@ import { useQuery } from "../../hooks";
 import PlanetCard from "./PlanetCard";
 import PlanetsListNav from "./PlanetsListNavbar";
 
-import { style } from "./index.scss";
+import * as styles from "./index.scss";
 
 const PlanetsList = () => {
   const queryParams = useQuery();
@@ -29,7 +29,7 @@ const PlanetsList = () => {
 
   return (
     <>
-      <Container className={style.planetsListContainer}>
+      <Container className={styles.planetsListContainer}>
         <Header as="h2" icon textAlign="center">
           Star Wars Planets
         </Header>
@@ -43,7 +43,7 @@ const PlanetsList = () => {
           ))}
         </Grid>
       </Container>
-      <Container className={style.planetsListFooter}>
+      <Container className={styles.planetsListFooter}>
         <PlanetsListNav
           pathname="/planets"
           currentPage={currentPage}
