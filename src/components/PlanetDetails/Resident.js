@@ -8,6 +8,6 @@ export const Resident = (props) => {
         fetch(residentUrl)
         .then((response)=>{return response.ok ? response.json() : {name: 'Unknown'}})
         .then(data=>setResident(data))
-    })
+    }, [residentUrl])
     return <List.Item><List.Icon name='user' /> {resident.name}</List.Item>
 };
